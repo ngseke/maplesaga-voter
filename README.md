@@ -1,4 +1,4 @@
-# Maplesaga Voter
+# MapleSaga Voter
 
 ## Install
 ```shell
@@ -10,7 +10,7 @@ $ npm i
 $ cp .env.example .env
 ```
 
-Edit `.env` and set your actual Maplesage id.
+Edit `.env` and set your actual MapleSaga id.
 
 ## Start
 ```shell
