@@ -31,7 +31,7 @@ const puppeteer = require('puppeteer')
   await page.evaluate(() => window.scrollTo(0, 300))
 
   page.on('console', async msg => {
-    await page.evaluate(() => $('#votebutton').click())
+    await page.click('#votebutton')
     
     await page.waitForNavigation()
     await browser.close()
